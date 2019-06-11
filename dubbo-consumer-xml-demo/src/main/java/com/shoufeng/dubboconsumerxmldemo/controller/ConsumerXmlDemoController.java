@@ -1,6 +1,6 @@
 package com.shoufeng.dubboconsumerxmldemo.controller;
 
-import com.shoufeng.api.CumsumerDemoService;
+import com.shoufeng.api.ConsumerDemoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ConsumerXmlDemoController {
 
     @Autowired
-    private CumsumerDemoService cumsumerDemoService;
+    private ConsumerDemoService cumsumerDemoService;
 
     @GetMapping("/")
     public void test(){

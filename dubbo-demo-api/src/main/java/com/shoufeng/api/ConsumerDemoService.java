@@ -1,5 +1,5 @@
 package com.shoufeng.api;
 
-public interface CumsumerDemoService {
+public interface ConsumerDemoService {
     String sayHello(String name);
 }
